@@ -2,7 +2,7 @@ import wikipedia
 
 
 def main():
-    input_prompt = input("Enter a page title or search phrase: ")
+    input_prompt = input("Enter a page title or search phrase >>> ")
     search_results = wikipedia.search(input_prompt, results=3)
     search_summary = wikipedia.summary(input_prompt)
     user_input = wikipedia.page(input_prompt)
